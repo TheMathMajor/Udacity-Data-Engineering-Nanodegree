@@ -1,6 +1,8 @@
 # Project Description
 In this project, we build an ETL pipeline using Python to load data into a Postgres database. Along the way, we define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
+![alt text](https://udacity-reviews-uploads.s3.us-west-2.amazonaws.com/_attachments/38715/1600052919/Song_ERD.png)
+
 ## Song Dataset
 The first dataset is a subset of real data from the [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/). Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are filepaths to two files in this dataset.  
 `song_data/A/B/C/TRABCEI128F424C983.json`  
